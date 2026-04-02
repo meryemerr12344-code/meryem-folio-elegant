@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import { ArrowDown, Download } from "lucide-react";
+import ProfileImg from "../assets/profile.png";
 
 const Hero = () => (
   <section className="relative min-h-screen flex items-center justify-center section-padding pt-32 overflow-hidden">
@@ -18,6 +19,14 @@ const Hero = () => (
         <p className="text-accent font-medium tracking-widest uppercase text-sm mb-4">
           Portfolio
         </p>
+           <div className="flex flex-col items-center justify-center mt-10">
+      <img
+        src={ProfileImg}
+        alt="Meryem Erraddad"
+        className="w-48 h-48 rounded-full shadow-lg object-cover"
+      />
+      
+    </div>
         <h1 className="font-display text-5xl md:text-7xl font-bold text-primary mb-4">
           Meryem Erraddad
         </h1>
@@ -37,7 +46,7 @@ const Hero = () => (
             Contact Me
           </a>
           <a
-            href="#"
+            href= "/cv.pdf" download
             className="inline-flex items-center gap-2 px-8 py-3 rounded-md border border-primary text-primary font-medium hover:bg-primary hover:text-primary-foreground transition-colors"
           >
             <Download size={16} />
