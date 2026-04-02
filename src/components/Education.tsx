@@ -2,6 +2,11 @@ import { motion } from "framer-motion";
 import { GraduationCap } from "lucide-react";
 
 const items = [
+  {
+    year: "Fév 2026 – Présent",
+    title: "Développeuse",
+    place: "GEEKS INSTITUTE",
+  },
   { year: "2023 – 2024", title: "TOEFL", place: "Centre Privilège" },
   {
     year: "2021 – 2022",

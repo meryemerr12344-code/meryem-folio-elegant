@@ -44,7 +44,7 @@ const languages = [
 ];
 
 const Skills = () => (
-  <section id="skills" className="section-padding">
+  <section id="skills" className="section-padding bg-card">
     <div className="container mx-auto max-w-4xl">
       <motion.div
         initial={{ opacity: 0, y: 30 }}

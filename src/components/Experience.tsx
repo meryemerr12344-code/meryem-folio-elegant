@@ -2,12 +2,7 @@ import { motion } from "framer-motion";
 import { Briefcase } from "lucide-react";
 
 const jobs = [
-  {
-    company: "GEEKS INSTITUTE",
-    role: "Développeuse",
-    period: "Fév 2026 – Présent",
-    current: true,
-  },
+  
   {
     company: "EBELE DENTALE",
     role: "Gestion de stock",
@@ -29,7 +24,7 @@ const jobs = [
 ];
 
 const Experience = () => (
-  <section id="experience" className="section-padding bg-card">
+  <section id="experience" className="section-padding ">
     <div className="container mx-auto max-w-3xl">
       <motion.div
         initial={{ opacity: 0, y: 30 }}
@@ -41,7 +36,7 @@ const Experience = () => (
         <h2 className="font-display text-3xl md:text-4xl font-bold text-primary mb-2">
           Expérience Professionnelle
         </h2>
-        <div className="w-12 h-1 bg-accent mx-auto rounded-full" />
+         <div className="w-12 h-1 bg-accent mx-auto rounded-full" />
       </motion.div>
 
       <div className="grid gap-6">
